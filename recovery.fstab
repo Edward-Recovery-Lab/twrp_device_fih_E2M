@@ -10,3 +10,4 @@
 /misc               emmc      /dev/block/bootdevice/by-name/misc                                    flags=display="Misc";backup=1;flashimg=1;
 /persist            ext4      /dev/block/bootdevice/by-name/persist                                 flags=display="Persist";
 /persist_image      emmc      /dev/block/bootdevice/by-name/persist                                 flags=display="Persist image";backup=1;flashimg=1;
+/sdcard1            vfat      /dev/block/mmcblk1p1                                                  flags=display="sdcard";
